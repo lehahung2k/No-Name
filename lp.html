@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hiệu ứng css 3D</title>
+    <link rel="stylesheet" type="text/css" href="lp/pp.css">
+    <!--Chèn icon cho trang web-->
+    <link rel="shortcut icon" type="image/png" href="lp/img1/me.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+<body>
+    <div align="center" style="direction: ltr;">
+        <div class="wrap">
+            <div class="cube">
+                <!--Chèn ảnh cho mặt trc-->
+                <div class="front">
+			        <img height="200px" width="200px" src="lp/img1/1.jpg"/>
+                </div>
+                <!--Chèn ảnh cho mặt sau-->
+                <div class="back">
+                    <img height="200px" width="200px" src="lp/img1/2.jpg"/>   
+                </div>
+                <!--Chèn ảnh cho mặt trên-->
+                <div class="top">
+                    <img height="200px" width="200px" src="lp/img1/3.jpg"/>  
+                </div>
+                <!--Chèn ảnh cho mặt dưới-->
+                <div class="bottom">
+                    <img height="200px" width="200px" src="lp/img1/4.jpg"/>  
+                </div>
+                <!--Chèn ảnh cho mặt trái-->
+                <div class="left">
+                    <img height="200px" width="200px" src="lp/img1/5.jpg"/>
+                </div>
+                <!--Chèn ảnh cho mặt phải-->
+                <div class="right">
+                    <img height="200px" width="200px" src="lp/img1/6.jpg"/>
+                </div>
+            </div>
+        </div>
+        <div style="text-align:center;padding-top:150px;">
+            <font color="white"> <h2>Di chuyển chuột vào khối lập phương để mở rộng nó!</h2> </font>
+        </div>
+    </div>
+    <!--Chèn nhạc-->
+ 	<div style="position: absolute;top: 15px;left: 15px;height: 30px;width: 500px;" id="playAudio">
+    		<audio controls autoplay loop><source src="lp/tb.mp3" type="audio/mpeg"></audio>
+  	</div>
+</body>
+</html>
