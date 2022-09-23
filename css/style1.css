@@ -1,0 +1,88 @@
+body {
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+    height: auto;
+    background: rgb(16, 255, 235);
+}
+
+nav .navbar-nav {
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.banner {
+    height: auto;
+    width: 100%;
+}
+.banner img {
+    height: auto;
+    width: 100%
+}
+
+.main a {
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main .left {
+    width: 75%;
+    background: rgb(230, 3, 3);
+    float: left;
+    min-height: 400px;
+}
+.main .right {
+    width: 25%;
+    background: rgb(251, 255, 0);
+    float: right;
+    min-height: 400px;
+    line-height: auto;
+}
+.main .right ul li {
+    list-style: none;
+    text-align: center;
+}
+.main .left ul li {
+    text-align: center;
+    list-style: none;
+}
+.main .left img{
+    border-image: auto;
+    height: 400px;
+    width: auto;
+    margin-top: 0px;
+    margin-left: 150px;
+}
+.main .right img {
+    height: auto;
+    width: 250px;
+}
+.main .right ul li {
+    text-align: left;
+    color: black;
+}
+.main .right a {
+    text-decoration: none;
+}
+.bottom{
+    background: rgb(183, 0, 255);
+    width:1000px;
+    height: 50px;
+    text-align: center;
+    clear: left;
+    line-height: 50px;
+    background-position: 0px;
+}
+#bottom a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
