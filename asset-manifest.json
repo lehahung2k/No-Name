@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.54023ef2.css",
+    "main.css": "./static/css/main.7edec629.css",
     "main.js": "./static/js/main.5050aed6.js",
     "static/js/787.bf6be429.chunk.js": "./static/js/787.bf6be429.chunk.js",
     "static/media/sharingan.png": "./static/media/sharingan.af832a8d44ac89b797a6.png",
     "static/media/textimg.txt": "./static/media/textimg.e6aff1abcb70a39e7d47.txt",
     "index.html": "./index.html",
-    "main.54023ef2.css.map": "./static/css/main.54023ef2.css.map",
+    "main.7edec629.css.map": "./static/css/main.7edec629.css.map",
     "main.5050aed6.js.map": "./static/js/main.5050aed6.js.map",
     "787.bf6be429.chunk.js.map": "./static/js/787.bf6be429.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54023ef2.css",
+    "static/css/main.7edec629.css",
     "static/js/main.5050aed6.js"
   ]
 }
