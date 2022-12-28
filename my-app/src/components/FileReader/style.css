@@ -1,0 +1,31 @@
+.check-bar {
+    width: 100%;
+}
+.output {
+    width: 75%;
+    resize: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    outline: none;
+    color: #002088;
+    padding: 20px;
+    margin: 20px;
+    font-size: 0.65vw;
+    text-align: center;
+}
+input {
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    font-size: 1vw;
+}
+button {
+    padding: 10px;
+    background-color: #ffd4de;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    font-size: 1vw;
+}
