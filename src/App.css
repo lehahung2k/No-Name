@@ -15,7 +15,10 @@
 }
 
 .App-header {
-  background-color: #2e1261;
+  background: linear-gradient(-45deg, #69003a, #cc00ff, #6006f1, #0004ff);
+	background-size: 200% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,6 +26,30 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .App-link {

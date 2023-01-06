@@ -21,9 +21,10 @@ export default function TextFileReader() {
     }
 
     const checkBirthday = () => {
-        if (birthday !== herDoB) alert('Type your birthday!')
+        if (birthday === '') alert('Empty input, please enter your birthday!');
         else {
-            setShowImg(true);
+            if (birthday !== herDoB) alert("It's not your birthday!");
+            else setShowImg(true);
         }
     }
     const processData = () => {
