@@ -11,14 +11,14 @@ export default function TextFileReader() {
     const [isShowName, setIsShow] = useState(false);
     const [birthday, setBirthday] = useState('');
     const [isShowImg, setShowImg] = useState(false);
-    const [fileData, setFileData] = useState('Press any key to see!')
+    const [fileData, setFileData] = useState('Tap here to see!')
 
     const showNameInput = () => {
         if (nameInput !== '') {
             console.log(nameInput);
             setIsShow(true)
         }
-        else alert('Empty Input')
+        else alert('Please enter your name ^^')
     }
 
     const checkBirthday = () => {
@@ -32,7 +32,10 @@ export default function TextFileReader() {
         fetch(textImg)
             .then(r => r.text())
             .then(text => {
-                setFileData(text)
+                // Split the file contents on newlines
+                const lines = text.split('\n');
+                // Set the value of the textarea to the array of lines
+                setFileData(lines);
             });
     }
 
@@ -62,7 +65,7 @@ export default function TextFileReader() {
                 </div>
             }
             {isShowImg &&
-                <TextareaAutosize className="output" value={fileData} onChange={processData} onKeyDown={handleChange}/>
+                <TextareaAutosize className="output" value={fileData} onChange={processData} onFocus={handleChange}/>
             }
         </div>
     );
